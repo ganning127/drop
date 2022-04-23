@@ -6,8 +6,6 @@ import {
   List,
   ListItem,
   ListIcon,
-  OrderedList,
-  UnorderedList,
   chakra,
 } from "@chakra-ui/react";
 import { MdCheckCircle } from "react-icons/md";
@@ -18,7 +16,7 @@ export const InBox = ({ list, desc, children }) => {
   return (
     <>
       <Heading color="gray.700" textAlign="center" fontWeight="black">
-        What's in <chakra.span color="green.400">each drop</chakra.span>?
+        What&apos;s in <chakra.span color="green.400">each drop</chakra.span>?
       </Heading>
       <Text textAlign="center" color="gray.700" fontWeight="semibold">
         {desc}
