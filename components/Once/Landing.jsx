@@ -81,7 +81,7 @@ export function Landing() {
                 top={"-15px"}
                 transform={"rotate(10deg)"}
               >
-                Starting at $15/mo
+                Starting at $15/m222o
               </Text>
             </Box>
           </Stack>
