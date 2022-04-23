@@ -15,15 +15,15 @@ import { NavListItem } from "./NavListItem";
 const links = [
   {
     label: "Buy",
-    href: "/buy",
+    href: "https://gy9yf2tl3uv.typeform.com/to/dE7gxSCM",
   },
   {
     label: "Organizations",
-    href: "/organizations",
+    href: "https://gy9yf2tl3uv.typeform.com/to/VzroWIJS",
   },
   {
     label: "Donate",
-    href: "/donate",
+    href: "https://gy9yf2tl3uv.typeform.com/to/znxvWN8S",
   },
 ];
 
