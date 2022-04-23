@@ -1,5 +1,13 @@
 import Head from "next/head";
-import { Box, Heading, Container, Text, Button, Stack } from "@chakra-ui/react";
+import {
+  Box,
+  Heading,
+  Container,
+  Text,
+  Button,
+  Stack,
+  Link,
+} from "@chakra-ui/react";
 
 export const Landing = () => {
   return (
@@ -34,7 +42,7 @@ export const Landing = () => {
             need resources most are able to access it.
           </Text>
           <Stack
-            direction={"column"}
+            direction={"row"}
             spacing={3}
             align={"center"}
             alignSelf={"center"}
@@ -53,8 +61,20 @@ export const Landing = () => {
                 bg: "green.500",
               }}
             >
-              Request a box
+              Buy a box
             </Button>
+            <Link
+              href="https://gy9yf2tl3uv.typeform.com/to/VzroWIJS?typeform-source=localhost"
+              target="_blank"
+              color={"green.400"}
+              px={6}
+              fontWeight="bold"
+              _hover={{
+                color: "green.500",
+              }}
+            >
+              Request a box
+            </Link>
           </Stack>
         </Stack>
       </Container>
