@@ -75,7 +75,7 @@ const DesktopNavContent = (props) => {
           fontSize="xl"
           fontWeight="bold"
           _hover={{
-            color: "#808080",
+            color: "green.400",
           }}
         >
           {link.label}
