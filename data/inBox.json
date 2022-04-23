@@ -1,0 +1,24 @@
+{
+  "Clothing": [
+    "Insulated mittens",
+    "Clothes (seasonal)",
+    "Baby cloth diapers",
+    "Jacket",
+    "Baby hats",
+    "Baby bottle"
+  ],
+  "Hygeine": [
+    "Baby powder",
+    "Teething objects",
+    "Baby wipes",
+    "Baby shampoo & soap",
+    "Baby oil"
+  ],
+  "Miscellaneous": [
+    "Toys and stuffed animals",
+    "Food bib",
+    "Paper",
+    "Box",
+    "Mattress"
+  ]
+}

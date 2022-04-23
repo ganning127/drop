@@ -6,6 +6,7 @@ const DesktopNavLink = (props) => {
     <chakra.a
       fontWeight="medium"
       display="flex"
+      target="_blank"
       alignItems="center"
       justifyContent="center"
       borderBottom="2px"

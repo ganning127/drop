@@ -1,15 +1,5 @@
 import Head from "next/head";
-import {
-  Box,
-  Heading,
-  Container,
-  Text,
-  Button,
-  Stack,
-  Icon,
-  useColorModeValue,
-  createIcon,
-} from "@chakra-ui/react";
+import { Box, Heading, Container, Text, Button, Stack } from "@chakra-ui/react";
 
 export const Landing = () => {
   return (
@@ -51,8 +41,12 @@ export const Landing = () => {
             position={"relative"}
           >
             <Button
+              as={"a"}
+              href="https://gy9yf2tl3uv.typeform.com/to/VzroWIJS?typeform-source=localhost"
+              target="_blank"
               colorScheme={"green"}
               bg={"green.400"}
+              shadow="md"
               rounded={"full"}
               px={6}
               _hover={{
